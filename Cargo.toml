@@ -1,0 +1,8 @@
+[package]
+name = "advent-2020"
+version = "0.1.0"
+authors = ["Samuel Leeuwenburg <samleeuwenburg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1.4.2"
