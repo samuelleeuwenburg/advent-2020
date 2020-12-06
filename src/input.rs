@@ -21,3 +21,6 @@ pub fn read_lines(filename: &str) -> Vec<String> {
         .collect()
 }
 
+pub fn read_file(filename: &str) -> String {
+    fs::read_to_string(filename).expect("err")
+}
